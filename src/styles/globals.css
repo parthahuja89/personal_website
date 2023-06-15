@@ -144,6 +144,9 @@ nav{
     width: 90%;
     font-size: 2em;
   }
+  button{
+    width: 60% !important;
+  }
 }
 
 @media only screen and (max-device-width: 900px) {
@@ -173,7 +176,7 @@ nav{
     width: 100%;
   }
   button{
-    width: 60%;
+    width: 60% !important;
   }
 }
 
