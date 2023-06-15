@@ -172,6 +172,9 @@ nav{
     font-size: 0.7em;
     width: 100%;
   }
+  button{
+    width: 60%;
+  }
 }
 
 .social-container{
@@ -189,5 +192,4 @@ button{
   display: flex;
   justify-content: center;
   padding: 10px;
-  
 }
