@@ -143,6 +143,9 @@ nav{
 }
 
 @media only screen and (max-device-width: 768px) {
+  .card{
+    height: 500px;
+  }
   .text-box{
     width: 100%;
     margin-left: 0;
@@ -154,14 +157,14 @@ nav{
     align-items: center;
   }
   .main-text{
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
   .work-subtext{
     font-size:0.71em;
   }
   .flex-container{
-    width: 90%;
-    font-size: 2em;
-    transform: translateY(-15%);
+    width: 95%;
+    font-size: 1em;
+    transform: translateY(-10%);
   }
 }
