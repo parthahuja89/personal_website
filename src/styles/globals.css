@@ -5,21 +5,60 @@
 /* Change background color */
 body {
   background-color: #082436;
-  margin: 0;
+  overflow: hidden;
 }
 .section {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+}
+.flex-container{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  transform: translateY(-5%);
+  align-items: center;
+  @media (max-width: 768px) {
+    width: 90%;
+    font-size: 2em;
+  }
 }
 
+.text-box{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+.card{
+  background: linear-gradient(45deg, rgb(255, 25, 75), rgb(130, 21, 240));
+  border-radius: 15px;
+  height: 600px;
+  width: 600px;
+}
+.sub-flex-box{
+  width: 80%;
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
 /* Font to Fira code */
 .nav-bar{
   background-color: #082436;
   color: rgb(255, 255, 255);
   font-family: "Fira Code",monospace;
-  /* thinner font */
   font-weight: 200; 
   font-size: 0.9em;
   font-variant-numeric:slashed-zero
@@ -29,25 +68,32 @@ body {
 }
 .pink {
   color: #02dbb7;
-  font-family: "Fira Code",monospace;
   font-weight: 100;
 }
-
+.mono{
+  font-family: "Fira Code",monospace;
+}
 .svg{
   color: #df0068;
 }
 
 .main-text{
-  
   font-size: 5.5vw;
   font-weight: 700;
+  @media (max-width: 768px) {
+    font-size: 1.5em;
+  }
 }
 .subtext{
   font-size: 2.5vh;
 }
 .subtext-2{
   font-size: 2vh;
-  color: #8892b0;  
+  color: #e3e3e3;  
+  @media (max-width: 768px) {
+    font-size: 0.5em;
+    width: 80%;
+  }
 }
 button {
   border-color: #02dbb7;
@@ -63,5 +109,32 @@ nav{
 .section-text{
   font-family: "Fira Code",monospace;
   font-size: 2.5vw;
-
+}
+.work-ex{
+  display: flex;
+  align-items: center;
+}
+.work-subtext{
+  font-size: 1.1vw;
+  margin-top: 5px;
+  color: #e3e3e3;
+  @media screen and (max-width: 768px) {
+    font-size:0.71em;
+  }
+}
+.line{
+  width: 80%;
+  height: 0.07px;
+  background-color: #a5a5a5;
+  margin-top: 10px;
+}
+.email_button{
+  background-color: #02dbb7;
+}
+.box {
+  width: 250px;
+  height: 250px;
+  border-radius: 12px;
+  background-color: khaki;
+  box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2);
 }
