@@ -162,5 +162,6 @@ nav{
   .flex-container{
     width: 90%;
     font-size: 2em;
+    transform: translateY(-15%);
   }
 }
