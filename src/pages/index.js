@@ -50,7 +50,7 @@ export default function Home() {
                 </div>
                 <div className="sub-flex-box">
                   <div className="subtext-2">
-                    Welcome to my personal website! I'm a graduate student at
+                    Welcome to my personal website! I&apos;m a graduate student at
                     Purdue University studying Computer Science. I like working
                     on web-apps and DevOps systems. On this website, you can
                     find my social links, resume, and contact information.
