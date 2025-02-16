@@ -37,7 +37,7 @@ export default function Home() {
             >
               <div className="text-box">
                 <div
-                  className="pink mono subtext"
+                  className="pink subtext"
                   style={{ marginBottom: "1%" }}
                 >
                   Hello 👋 my name is
