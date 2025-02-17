@@ -5,7 +5,6 @@
 /* Change background color */
 body {
   background-color: #082436;
-  overflow: hidden;
 }
 .section {
   min-height: 100vh;
@@ -32,7 +31,6 @@ body {
   margin-top: 20px;
 }
 .card{
-  background: linear-gradient(45deg, rgb(255, 25, 75), rgb(130, 21, 240));
   border-radius: 15px;
   height: 80vh;
   width: 45vw;
@@ -52,10 +50,7 @@ body {
 .nav-bar-elem:hover{
   color: #df0068;
 }
-.pink {
-  color: #02dbb7;
-  font-weight: 100;
-}
+
 .mono{
   font-family: "Fira Code",monospace;
 }
@@ -64,7 +59,7 @@ body {
 }
 
 .main-text{
-  font-size: 5.5vw;
+  font-size: 5.5em;
   font-weight: 700;
 }
 .subtext{
@@ -99,13 +94,12 @@ nav{
 }
 .work-subtext{
   font-size: 1.1vw;
-  margin-top: 5px;
   color: #e3e3e3;
 }
 .line{
   width: 80%;
   height: 0.07px;
-  background-color: #a5a5a5;
+  background-color: #ffffff;
   margin-top: 5%;
 }
 .email_button{
@@ -119,7 +113,11 @@ nav{
   box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2);
 }
 
-@media only screen and (max-width: 900px) {
+.subtext-2 p {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1100px) {
   .card{
     height: 80%;
     width: 90vw;
@@ -144,7 +142,7 @@ nav{
     width: 90%;
     font-size: 2em;
   }
-  button{
+  .button-responsive{
     width: 60% !important;
   }
 }
@@ -165,7 +163,7 @@ nav{
     align-items: center;
   }
   .main-text{
-    font-size: 2.5em;
+    font-size: 2em;
   }
   .flex-container{
     width: 95%;
@@ -175,7 +173,7 @@ nav{
     font-size: 0.7em;
     width: 100%;
   }
-  button{
+  .button-responsive{
     width: 60% !important;
   }
 }
