@@ -48,7 +48,7 @@ export default function Home() {
                   <div className="subtext-2">
                     <p>
                       Welcome to my website! I&apos;m a Software Engineer
-                      currently working at Labcorp. I've previously worked at
+                      currently working at Labcorp. I&apos;ve previously worked at
                       Citrix and Willis Towers Watson.
                     </p>
                     <p>
