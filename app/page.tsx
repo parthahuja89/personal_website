@@ -81,9 +81,14 @@ export default function Home() {
               type="button"
               onClick={easterEgg}
               className="fixed bottom-0 right-0 p-2 hidden md:block"
-              whileHover={{
-                rotate: [0, -10, 10, -10, 10, 0],
-                transition: { duration: 1 },
+              animate={{
+              rotate: [0, -20, 20, -20, 20, 0],
+              }}
+              transition={{
+              delay: 1,
+              repeat: Infinity,
+              duration: 1,
+              repeatDelay: 5
               }}
             >
               <Egg size={32} />
