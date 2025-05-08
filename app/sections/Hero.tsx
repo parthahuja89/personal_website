@@ -34,7 +34,7 @@ export default function Hero() {
         >
           <div>
             <Suspense fallback={<div>Loading...</div>}>
-              <Spline scene="https://prod.spline.design/O3PFwdW0tQbfGDrm/scene.splinecode" />
+              <Spline scene="https://prod.spline.design/O3PFwdW0tQbfGDrm/scene.splinecode" onLoad={(spline) => {spline.setZoom(0.24)}} />
             </Suspense>
           </div>
         </motion.div>
