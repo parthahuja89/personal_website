@@ -66,11 +66,9 @@ export default function Hero() {
             >
               <p className="text-gray-300 mb-8">
                 Welcome to my website! I'm a Software Engineer currently working
-                at Labcorp. I've previously worked at Citrix and Willis Towers
-                Watson. I graduated from Purdue University in 2023. I like
-                working on web-apps and DevOps automations. On this website, you
-                can find my social links, resume, and contact information. Feel
-                free to reach out!
+                at Intuit on AI agents and Payroll workflow automations. I've
+                previously worked at Labcorp, Citrix, and Willis Towers Watson. I
+                graduated from Purdue University in 2023.
               </p>
 
               <div className="flex gap-4 mb-8">

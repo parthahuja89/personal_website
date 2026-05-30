@@ -9,17 +9,29 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
+    title: "Software Engineer 2",
+    company: "Intuit",
+    period: "Oct 2025 – Present",
+    achievements: [
+      "Build and scale QuickBooks AI Agent experiences within Intuit Intelligence, enabling employers and employees to automate complex workflows across payroll processing, issue resolution, and task execution.",
+      "Architect and develop a skills-based agent framework that allows AI agents to dynamically compose reusable capabilities across Payroll, Invoicing, Business Intelligence, and other QuickBooks domains.",
+      "Design production-grade agent systems using Python, LangChain, and Kubernetes, supporting reliable orchestration of multi-step workflows, tool execution, and domain-specific business logic.",
+      "Drive the evolution of QuickBooks Payroll toward a more real-time, agent-driven architecture, improving responsiveness and enabling richer in-product AI interactions.",
+      "Fine-tune and evaluate custom models on payroll-specific data and legacy monolith rules, improving accuracy for rule-heavy payroll decisions and workflow execution.",
+    ],
+    technologies: ["Python", "LangChain", "Kubernetes", "AWS", "AI/ML"],
+  },
+  {
     title: "Software Engineer",
     company: "LabCorp",
-    period: "Jan 2024 – Present",
+    period: "Jan 2024 – Oct 2025",
     achievements: [
-      "Developed a .NET API to automate order confirmation emails, handling hundreds of daily notifications and reducing manual effort by 95%.",
-      "Migrated Angular application to Single Sign-On using Okta, enhancing security and improving the login experience for 10,000+ users.",
-      "Participated in design discussions for migrating legacy apps to a modern Docker-based architecture using OpenShift and IBM API Connect.",
-      "Integrated WCAG-compliant accessibility scans into Jenkins pipelines, reducing manual review effort and improving compliance.",
-      "Automated API gateway subscription renewals using Python, eliminating recurring manual tasks and boosting developer productivity.",
+      "Migrated legacy authentication systems to Okta SSO for 10,000+ users, strengthening identity security and streamlining enterprise login flows.",
+      "Built a scalable .NET API that automated order confirmation emails for DNA test results, reducing manual email operations by 95%.",
+      "Modernized critical services with Docker, OpenShift, and IBM API Connect, improving deployment speed and standardizing API delivery.",
+      "Integrated automated WCAG-based validation into Jenkins pipelines, improving accessibility compliance by 80% and reducing manual QA effort.",
     ],
-    technologies: [".NET", "Angular", "Okta", "Docker", "OpenShift", "Python", "Jenkins"],
+    technologies: [".NET", "Okta", "Docker", "OpenShift", "Jenkins", "Python"],
   },
   {
     title: "Software Engineer Intern",
